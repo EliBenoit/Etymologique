@@ -1,0 +1,15 @@
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+addDefinition:
+    path: /adddef
+    controller: App\Controller\DefinitionController::add
+
+addImage:
+    path: /addimg
+    controller: App\Controller\ImageController::add
+
+addName:
+    path: /addname
+    controller: App\Controller\NameController::add

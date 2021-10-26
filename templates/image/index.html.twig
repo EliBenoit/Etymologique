@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ image.id }}{% endblock %}
+
+{% block content %}
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        {{ image.content }}
+    </ul>
+</div>
+{% endblock %}
